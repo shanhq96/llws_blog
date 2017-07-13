@@ -1,0 +1,42 @@
+.bodybox{
+    position: relative;
+    margin:0 auto;
+    width: 100%;
+    height: 600px;
+    text-align: center;
+}
+.login_logo{
+    position: relative;
+    padding-top:100px ;
+    text-align: center;
+    font-size: 0.8em;
+}
+.text{
+    position: relative;
+    margin: 0 auto;
+    height: 30px;
+    width: 200px;
+    padding-left:10px;
+    border: 1px solid #cccccc;
+    border-bottom: none ;
+    display: block;
+}
+.text1{
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+}
+.text2{
+    border-bottom: 1px solid #cccccc;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+.login_submit_button{
+    margin-top: 50px;
+    height: 30px;
+    width: 210px;
+    color: #fff;
+    background-color: #52b6dd;
+    border: 1px solid #52b6dd;
+    border-radius: 3px;
+}

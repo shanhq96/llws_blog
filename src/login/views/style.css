@@ -1,0 +1,50 @@
+.login{
+    z-index: 1000;
+    position: fixed;
+    left:0;
+    height: 70px;
+    width: 1349px;
+    background-color: #464A4C;
+    color: #ffffff;
+    opacity: 0.8;
+    /*background-image: url('../../images/panel-box-noise-bg.png');*/
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+}
+
+.homepage{
+    position: absolute;
+    height: 70px;
+    width: 100px;
+    background-color:#4BA34B ;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.homepage:hover{
+    text-decoration: none;
+    background-color:#00CC66;
+}
+
+.button{
+    position: absolute;
+    right: 0;
+    height: 70px;
+    width: 100px;
+    background-color:#52b6dd ;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    color: #ffffff;
+    vertical-align: middle;
+}
+
+.button:hover{
+    text-decoration: none;
+    background-color:#0099FF;
+}

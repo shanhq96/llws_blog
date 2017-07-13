@@ -1,0 +1,15 @@
+.symbol {
+    height: 280px;
+    width: 100%;
+    position: relative;
+}
+
+.logo {
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto auto;
+    position: absolute;
+}
+

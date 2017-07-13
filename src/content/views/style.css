@@ -1,0 +1,192 @@
+.content {
+    height: 1000px;
+    width: 100%;
+}
+
+.bloglist{
+    height: 1200px;
+    width: 70%;
+    position: absolute;
+}
+
+.ablog{
+    height:300px;
+    width: 98%;
+    margin-top: 20px;
+    position: relative;
+    background-color: #ffffff;
+}
+
+.blogimg{
+    position: absolute;
+    height: 300px;
+    width: 70%;
+    background: url("../../images/20ev2.jpg");
+}
+
+.blogcontent{
+    position: absolute;
+    right: 0;
+    padding-top: 15%;
+    height: 300px;
+    width: 30%;
+    text-align: center;
+}
+
+.blogcontent span{
+    position: absolute;
+    top:40px;
+    left:0;
+    right:0;
+    margin: 0 auto;
+    font-size: 24px;
+}
+
+.blogcontent p{
+    position: absolute;
+    top:150px;
+    font-size: 12px;
+    color: #000000;
+
+}
+
+.detail{
+    position: absolute;
+    height: 70px;
+    width: 100%;
+    left: 0;
+    top: 230px;
+    background-color:#4BA34B ;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.detail:hover{
+    text-decoration: none;
+    background-color:#00CC66;
+}
+
+.recommend{
+    height: 1200px;
+    right: 0;
+    width: 30%;
+    position: absolute;
+
+}
+
+.recommend-1{
+    height: 200px;
+    width: 100%;
+    position: absolute;
+    right: 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.recommend-1 hr{
+    position: relative;
+    margin: 0 auto;
+    background-color:#666666;
+    height:1px;
+    border:none;
+    width:70%;
+}
+
+.recommend-1 span{
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: 10px auto;
+    text-align: center;
+    font-size: 4em;
+    color: #ffffff;
+}
+
+.recommend-1 p{
+    position: relative;
+    margin: 0 auto;
+    left: -5px;
+    top: 75px;
+    width: 100%;
+    text-align: center;
+    color: #ffffff;
+}
+
+.weather-top{
+    width: 100%;
+    height: 100px;
+}
+
+.weather-down>span{
+    font-size: 3em;
+}
+
+
+.recommend-2-1{
+    height: 100px;
+    width: 48%;
+    position: absolute;
+    top: 390px;
+    right: 0;
+    margin-top: 20px;
+    background-color: #de8a6c;
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.recommend-2-2{
+    height: 100px;
+    width: 48%;
+    position: absolute;
+    top: 390px;
+    left: 0;
+    margin-top: 20px;
+    background-color: #52b6dd;
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.recommend-3{
+    height: 150px;
+    width: 100%;
+    position: absolute;
+    top: 220px;
+    right: 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    text-align: center;
+}
+
+.recommend-3 span{
+    font-size: 3em;
+}
+
+.recommend-4{
+    height: 300px;
+    width: 100%;
+    position: absolute;
+    top: 510px;
+    right: 0;
+    margin-top: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.change_page{
+    position:relative;
+    width: 500px;
+    right: -500px;
+    margin-top:10px;
+}
+
+.pageChanger{
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}

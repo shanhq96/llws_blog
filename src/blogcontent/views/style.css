@@ -1,0 +1,106 @@
+.textcontent {
+    position: relative;
+    height: auto;
+    width: 100%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+    font-size: 1.2em;
+    color: #ffffff;
+}
+
+.title {
+    padding: 20px 50px;
+    font-size: 3.5em;
+    text-align: left;
+}
+
+.neck {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 60px;
+    position: relative;
+    height: auto;
+    width: 100%;
+    font-size: 1.2em;
+    text-align: left;
+}
+
+hr {
+    position: relative;
+    margin: 0 auto;
+    background-color: #666666;
+    height: 1px;
+    border: none;
+    width: 90%;
+}
+
+.textbody {
+    position: relative;
+    width: 80%;
+    margin: 50px auto;
+    height: auto;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+.review {
+    position: relative;
+    width: 80%;
+    height: auto;
+    padding: 100px 10%;
+    margin-bottom: 20px;
+    background-color: rgba(255, 255, 255, 0.1);
+    background-image: url('../../images/panel-box-noise-bg.png');
+    box-shadow: 0 1px 3px rgba(30, 50, 70, 0.3), inset 0 0 1px rgba(255, 255, 255, 0.15), inset 0 1px 0 rgba(255, 255, 255, 0.12);
+}
+
+.review li {
+    margin-bottom: 20px;
+}
+
+.review hr {
+    margin-top: 20px;
+    width: 100%;
+}
+
+.reviewbox{
+    width: 100%;
+    height: 70px;
+    border: 1px solid #f5f5f5;
+    border-radius: 3px;
+    line-height: 35px;
+}
+
+.reviewsubmit {
+    position: relative;
+    margin-top: 20px;
+    width: 50px;
+    height: 30px;
+    float: right;
+    border: 1px solid #00CC66;
+    border-radius: 1px;
+    background-color: #00CC66;
+    text-align: center;
+}
+
+pre{
+    color: red;
+}
+
+.reviewsubmit a{
+    position: relative;
+    line-height: 30px;
+    text-decoration: none;
+}
+
+.collectButton{
+    position:absolute;
+    background-color: #00CC66;
+    bottom:0;
+    right: 0;
+    width: 30%;
+    height: 50px;
+}

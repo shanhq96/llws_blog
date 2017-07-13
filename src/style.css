@@ -1,0 +1,17 @@
+body {
+    background:#678ca6 url(./images/default_bg.jpg) 50% 0 fixed;
+    background-size: cover;
+
+}
+
+@font-face {
+    font-family: My;
+    src: url("/public/bb2117/Arial.ttf");
+}
+
+.myRoot {
+    height: 1900px;
+    width: 70%;
+    position: relative;
+    margin: 0 auto;
+}
